@@ -123,3 +123,22 @@ fabric.properties
 .idea
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains
+
+# Created by https://www.toptal.com/developers/gitignore/api/sbt
+# Edit at https://www.toptal.com/developers/gitignore?templates=sbt
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# End of https://www.toptal.com/developers/gitignore/api/sbt
